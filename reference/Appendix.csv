@@ -1,0 +1,824 @@
+,name,description,units,valid values,var_type,min,max
+0,all0000,Total number of trades including collections and indeterminates,Trades,0-90,numeric,0,90
+1,all0060,"Total number of trades excluding collections opened after the most recent trade derogatory (including collections and indeterminates), or public record bankruptcy",Trades,0-90,numeric,0,90
+2,all0061,"Total number of trades excluding collections opened after the most recent trade derogatory (excluding collections and including indeterminates), or public record bankruptcy",Trades,0-90,numeric,0,90
+3,all0101,Total number of Fannie Mae trades including indeterminates,Trades,0-90,numeric,0,90
+4,all0200,Total number of trades including collections,Trades,0-90,numeric,0,90
+5,all0201,Total number of trades credit grantor cannot locate consumer including collections,Trades,0-90,numeric,0,90
+6,all0206,Total number of trades legally paid in full for less than the full balance including collections,Trades,0-90,numeric,0,90
+7,all0217,Total number of trades reported in the last 12 months including collections,Trades,0-90,numeric,0,90
+8,all0300,Total number of trades excluding collections,Trades,0-90,numeric,0,90
+9,all0303,Total number of trades under a non-government loan modification plan excluding collections,Trades,0-90,numeric,0,90
+10,all0305,Total number of debt counseling trades excluding collections,Trades,0-90,numeric,0,90
+11,all0316,Total number of trades reported in the last 6 months excluding collections,Trades,0-90,numeric,0,90
+12,all0318,Total number of trades reported in the last 24 months excluding collections,Trades,0-90,numeric,0,90
+13,all0336,Total number of trades opened in the last 6 months excluding collections,Trades,0-90,numeric,0,90
+14,all0437,Total number of open trades opened in the last 12 months ,Trades,0-90,numeric,0,90
+15,all0438,Total number of open trades opened in the last 24 months ,Trades,0-90,numeric,0,90
+16,all0446,Total number of open trades opened at least 6 months reported in the last 6 months ,Trades,0-90,numeric,0,90
+17,all0448,Total number of open trades opened at least 24 months reported in the last 6 months,Trades,0-90,numeric,0,90
+18,all0700,Total number of closed trades excluding collections,Trades,0-90,numeric,0,90
+19,all0726,Total number of trades closed by credit grantor in the last 6 months excluding collections,Trades,0-90,numeric,0,90
+20,all0900,Total number of trades affected by natural disaster excluding collections,Trades,0-90,numeric,0,90
+21,all1302,Total number of trades under a government loan modification plan never delinquent or derogatory,Trades,0-90,numeric,0,90
+22,all1360,Total number of trades never delinquent or derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+23,all1370,Total number of trades never delinquent or derogatory occurred in the last 12 months,Trades,0-90,numeric,0,90
+24,all1380,Total number of trades never delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+25,all2000,Total number of open trades presently satisfactory reported in the last 6 months ,Trades,0-90,numeric,0,90
+26,all2001,Total number of trades presently satisfactory that were ever 30 or more days delinquent or derogatory including collections,Trades,0-90,numeric,0,90
+27,all2002,Total number of trades presently satisfactory that were ever 30 or more days delinquent or derogatory reported in the last 6 months including collections,Trades,0-90,numeric,0,90
+28,all2003,Total number of trades presently satisfactory and with maximum delinquency of 30 days 1 or 2 times that occurred in the last 12 months,Trades,0-90,numeric,0,90
+29,all2004,Total number of trades presently satisfactory and with maximum delinquency of 30 days that occurred in the last 12 months,Trades,0-90,numeric,0,90
+30,all2005,Total number of open trades presently satisfactory reported in the last 6 months and opened 12 months or older,Trades,0-90,numeric,0,90
+31,all2006,Total number of trades presently satisfactory and with maximum delinquency of 30 days that occurred more than 12 months ago,Trades,0-90,numeric,0,90
+32,all2008,"Total number of trades never delinquent or derogatory opened after the most recent trade derogatory (excluding collections and including indeterminates), or public record bankruptcy",Trades,0-90,numeric,0,90
+33,all2009,"Total number of trades never delinquent or derogatory opened after the most recent trade derogatory (including collections and indeterminates), or public record bankruptcy",Trades,0-90,numeric,0,90
+34,all2011,Total number of trades presently satisfactory that were ever 30 or more days delinquent or derogatory excluding collections,Trades,0-90,numeric,0,90
+35,all2012,Total number of trades presently satisfactory that were ever 30 or more days delinquent or derogatory reported in the last 6 months excluding collections,Trades,0-90,numeric,0,90
+36,all2116,Total number of trades presently 30-180 days delinquent reported in the last 6 months ,Trades,0-90,numeric,0,90
+37,all2136,Total number of trades presently 60 days delinquent reported in the last 6 months ,Trades,0-90,numeric,0,90
+38,all2146,Total number of trades presently 60-180 days delinquent reported in the last 6 months ,Trades,0-90,numeric,0,90
+39,all2166,Total number of trades presently 90 days delinquent reported in the last 6 months ,Trades,0-90,numeric,0,90
+40,all2176,Total number of trades presently 90-180 days delinquent reported in the last 6 months ,Trades,0-90,numeric,0,90
+41,all2196,Total number of trades presently 120-180 days delinquent reported in the last 6 months,Trades,0-90,numeric,0,90
+42,all2201,"Total number of unsatisfied derogatory trades excluding collections, charge-offs and bankruptcies",Trades,0-90,numeric,0,90
+43,all2216,Total number of trades presently derogatory occurred in the last 6 months excluding collections ,Trades,0-90,numeric,0,90
+44,all2220,Total number of trades presently 30 or more days delinquent or derogatory excluding collections,Trades,0-90,numeric,0,90
+45,all2226,Total number of trades presently 30 or more days delinquent or derogatory occurred in the last 6 months excluding collections,Trades,0-90,numeric,0,90
+46,all2300,Total number of trades ever 30 days delinquent excluding collections and other unsatisfied derogatory,Trades,0-90,numeric,0,90
+47,all2307,Total number of trades 30 days delinquent in the last 12 months excluding collections and other unsatisfied derogatory,Trades,0-90,numeric,0,90
+48,all2309,Total number of trades 30 days delinquent in the last 36 months excluding collections and other unsatisfied derogatory,Trades,0-90,numeric,0,90
+49,all2320,Total number of trades ever 30 or more days delinquent or derogatory including collections,Trades,0-90,numeric,0,90
+50,all2321,"Total number of trades ever 30 days delinquent that occurred more than 2 times, or ever 60 or more days delinquent or derogatory including collections",Trades,0-90,numeric,0,90
+51,all2326,Total number of trades ever 30 or more days delinquent or derogatory occurred in the last 6 months including collections,Trades,0-90,numeric,0,90
+52,all2327,Total number of trades ever 30 or more days delinquent or derogatory occurred in the last 12 months including collections,Trades,0-90,numeric,0,90
+53,all2330,Total number of trades ever 60 days delinquent excluding collections and other unsatisfied derogatory,Trades,0-90,numeric,0,90
+54,all2339,Total number of trades 60 days delinquent in the last 36 months excluding collections and other unsatisfied derogatory,Trades,0-90,numeric,0,90
+55,all2350,Total number of trades ever 60 or more days delinquent or derogatory including collections,Trades,0-90,numeric,0,90
+56,all2351,"Total number of trades presently 30 days delinquent, or ever 60 or more days delinquent or derogatory including collections",Trades,0-90,numeric,0,90
+57,all2356,Total number of trades ever 60 or more days delinquent or derogatory occurred in the last 6 months including collections,Trades,0-90,numeric,0,90
+58,all2357,Total number of trades ever 60 or more days delinquent or derogatory occurred in the last 12 months including collections,Trades,0-90,numeric,0,90
+59,all2358,Total number of trades ever 60 or more days delinquent or derogatory occurred in the last 24 months including collections,Trades,0-90,numeric,0,90
+60,all2360,Total number of trades ever 90 days delinquent excluding collections and other unsatisfied derogatory,Trades,0-90,numeric,0,90
+61,all2366,Total number of trades 90 days delinquent in the last 6 months excluding collections and other unsatisfied derogatory,Trades,0-90,numeric,0,90
+62,all2367,Total number of trades 90 days delinquent in the last 12 months excluding collections and other unsatisfied derogatory,Trades,0-90,numeric,0,90
+63,all2369,Total number of trades 90 days delinquent in the last 36 months excluding collections and other unsatisfied derogatory,Trades,0-90,numeric,0,90
+64,all2380,Total number of trades ever 90 or more days delinquent or derogatory including collections,Trades,0-90,numeric,0,90
+65,all2386,Total number of trades ever 90 or more days delinquent or derogatory occurred in the last 6 months including collections,Trades,0-90,numeric,0,90
+66,all2387,Total number of trades ever 90 or more days delinquent or derogatory occurred in the last 12 months including collections,Trades,0-90,numeric,0,90
+67,all2388,Total number of trades ever 90 or more days delinquent or derogatory occurred in the last 24 months including collections,Trades,0-90,numeric,0,90
+68,all2390,"Total number of trades ever 90 or more days delinquent or derogatory including collections, or public records","Trades, PubRec",0-90,numeric,0,90
+69,all2420,Total number of trades ever 30 or more days delinquent or derogatory excluding collections,Trades,0-90,numeric,0,90
+70,all2421,Total number of trades ever 30 or more days delinquent or derogatory occurred in the last 6 months excluding collections,Trades,0-90,numeric,0,90
+71,all2422,Total number of trades ever 30 or more days delinquent or derogatory occurred in the last 12 months excluding collections,Trades,0-90,numeric,0,90
+72,all2423,Total number of trades ever 30 or more days delinquent or derogatory occurred in the last 24 months excluding collections,Trades,0-90,numeric,0,90
+73,all2427,Total number of trades opened in the last 12 months ever 30 or more days delinquent or derogatory excluding collections,Trades,0-90,numeric,0,90
+74,all2428,Total number of trades opened in the last 24 months ever 30 or more days delinquent or derogatory excluding collections,Trades,0-90,numeric,0,90
+75,all2450,Total number of trades ever 60 or more days delinquent or derogatory excluding collections,Trades,0-90,numeric,0,90
+76,all2456,Total number of trades ever 60 or more days delinquent or derogatory occurred in the last 6 months excluding collections,Trades,0-90,numeric,0,90
+77,all2457,Total number of trades ever 60 or more days delinquent or derogatory occurred in the last 12 months excluding collections,Trades,0-90,numeric,0,90
+78,all2480,Total number of trades ever 90 or more days delinquent or derogatory excluding collections,Trades,0-90,numeric,0,90
+79,all2486,Total number of trades ever 90 or more days delinquent or derogatory occurred in the last 6 months excluding collections,Trades,0-90,numeric,0,90
+80,all2487,Total number of trades ever 90 or more days delinquent or derogatory occurred in the last 12 months excluding collections,Trades,0-90,numeric,0,90
+81,all2488,Total number of trades ever 90 or more days delinquent or derogatory occurred in the last 24 months excluding collections,Trades,0-90,numeric,0,90
+82,all2490,"Total number of trades ever 90 or more days delinquent or derogatory excluding collections, and including public records","Trades, PubRec",0-90,numeric,0,90
+83,all2700,Total number of trades ever derogatory including collections,Trades,0-90,numeric,0,90
+84,all2702,Total number of trades with derogatory occurred in the last 6 months excluding collections,Trades,0-90,numeric,0,90
+85,all2706,Total number of trades with derogatory occurred in the last 6 months including collections,Trades,0-90,numeric,0,90
+86,all2707,Total number of trades with derogatory occurred in the last 12 months including collections,Trades,0-90,numeric,0,90
+87,all2708,Total number of trades with derogatory occurred in the last 24 months including collections,Trades,0-90,numeric,0,90
+88,all2720,"Total number of trades ever derogatory including collections, or public records ","Trades, PubRec",0-90,numeric,0,90
+89,all2721,"Total number of trades ever derogatory excluding collections, and including public records ","Trades, PubRec",0-90,numeric,0,90
+90,all2830,Total number of repossession trades,Trades,0-90,numeric,0,90
+91,all2840,Total number of charge-off trades,Trades,0-90,numeric,0,90
+92,all2841,Total number of unsatisfied charge-off trades,Trades,0-90,numeric,0,90
+93,all2870,Total number of bankruptcy trades,Trades,0-90,numeric,0,90
+94,all2874,Total number of bankruptcy trades with status date within the last 12 months,Trades,0-90,numeric,0,90
+95,all2875,Total number of bankruptcy trades with status date within the last 24 months,Trades,0-90,numeric,0,90
+96,all2880,Total number of trades with first payment never received excluding collections,Trades,0-90,numeric,0,90
+97,all2900,Total number of trades with maximum delinquency of 30 days ever,Trades,0-90,numeric,0,90
+98,all2907,Total number of trades with maximum delinquency of 30 days in the last 12 months,Trades,0-90,numeric,0,90
+99,all2908,Total number of trades with maximum delinquency of 30 days in the last 24 months,Trades,0-90,numeric,0,90
+100,all2930,Total number of trades with maximum delinquency of 60 days ever,Trades,0-90,numeric,0,90
+101,all2936,Total number of trades with maximum delinquency of 60 days in the last 6 months,Trades,0-90,numeric,0,90
+102,all2938,Total number of trades with maximum delinquency of 60 days in the last 24 months,Trades,0-90,numeric,0,90
+103,all2940,Total number of trades with maximum delinquency of 60-180 days ever,Trades,0-90,numeric,0,90
+104,all2947,Total number of trades with maximum delinquency of 60-180 days in the last 12 months,Trades,0-90,numeric,0,90
+105,all2960,Total number of trades with maximum delinquency of 90 days ever,Trades,0-90,numeric,0,90
+106,all2967,Total number of trades with maximum delinquency of 90 days in the last 12 months,Trades,0-90,numeric,0,90
+107,all2968,Total number of trades with maximum delinquency of 90 days in the last 24 months,Trades,0-90,numeric,0,90
+108,all2976,Total number of trades with maximum delinquency of 90-180 days in the last 6 months,Trades,0-90,numeric,0,90
+109,all2997,Total number of trades with maximum delinquency of 120-180 days in the last 12 months,Trades,0-90,numeric,0,90
+110,all2999,Total number of trades with maximum delinquency of 120-180 days in the last 36 months,Trades,0-90,numeric,0,90
+111,all3110,Total number of trades with a balance > $0 excluding collections including indeterminates,Trades,0-90,numeric,0,90
+112,all4000,Total number of occurrences of 30 days delinquency on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+113,all4001,"Total number of occurrences of 30 days delinquency on trades presently satisfactory, and with maximum delinquency of 30 days that occurred 1 or 2 times and more than 12 months ago, excluding collections and other unsatisfied derogatory",Occurrences,0-990,numeric,0,990
+114,all4018,Total number of months with a balance activity on open trades in the last 24 months,Months,0-990,numeric,0,990
+115,all4028,Total number of months with a satisfactory balance activity on open trades in the last 24 months,Months,0-990,numeric,0,990
+116,all4060,Total number of occurrences of 30 days delinquency in the last 6 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+117,all4070,Total number of occurrences of 30 days delinquency in the last 12 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+118,all4080,Total number of occurrences of 30 days delinquency in the last 24 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+119,all4090,Total number of occurrences of 30 days delinquency in the last 36 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+120,all4190,Total number of occurrences of 30-180 days delinquency in the last 36 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+121,all4300,Total number of occurrences of 60 days delinquency on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+122,all4370,Total number of occurrences of 60 days delinquency in the last 12 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+123,all4380,Total number of occurrences of 60 days delinquency in the last 24 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+124,all4390,Total number of occurrences of 60 days delinquency in the last 36 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+125,all4400,Total number of occurrences of 60-180 days delinquency on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+126,all4460,Total number of occurrences of 60-180 days delinquency in the last 6 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+127,all4470,Total number of occurrences of 60-180 days delinquency in the last 12 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+128,all4480,Total number of occurrences of 60-180 days delinquency in the last 24 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+129,all4600,Total number of occurrences of 90 days delinquency on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+130,all4660,Total number of occurrences of 90 days delinquency in the last 6 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+131,all4670,Total number of occurrences of 90 days delinquency in the last 12 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+132,all4680,Total number of occurrences of 90 days delinquency in the last 24 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+133,all4690,Total number of occurrences of 90 days delinquency in the last 36 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+134,all4760,Total number of occurrences of 90-180 days delinquency in the last 6 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+135,all4770,Total number of occurrences of 90-180 days delinquency in the last 12 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+136,all4780,Total number of occurrences of 90-180 days delinquency in the last 24 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+137,all4790,Total number of occurrences of 90-180 days delinquency in the last 36 months on trades excluding collections and other unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+138,all4980,Total number of trades where a satisfactory status was preceded by occurrences of 30-180 days delinquencies in the last 24 months excluding collections and other unsatisfied derogatory,Trades,0-90,numeric,0,90
+139,all5012,Total balance on trades presently 30 or more days delinquent or derogatory occurred in the last 6 months excluding collections,$,0-999999990,numeric,0,999999990
+140,all5015,Total balance on trades presently 60 or more days delinquent or derogatory occurred in the last 6 months excluding collections,$,0-999999990,numeric,0,999999990
+141,all5018,Total balance on trades presently 90 or more days delinquent or derogatory occurred in the last 6 months excluding collections,$,0-999999990,numeric,0,999999990
+142,all5020,Total balance on open trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+143,all5030,"Total balance on open, or closed with a balance > $0 trades, reported in the last 6 months excluding derogatory and collection trades ",$,0-999999990,numeric,0,999999990
+144,all5040,Total balance on trades presently 30 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+145,all5042,Total balance on trades presently 30 or more days delinquent or derogatory occurred in the last 6 months including collections,$,0-999999990,numeric,0,999999990
+146,all5043,Total balance on trades presently 60 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+147,all5045,Total balance on trades presently 60 or more days delinquent or derogatory occurred in the last 6 months including collections,$,0-999999990,numeric,0,999999990
+148,all5047,Total balance on trades presently 90-180 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+149,all5048,Total balance on trades presently 90 or more days delinquent or derogatory occurred in the last 6 months including collections,$,0-999999990,numeric,0,999999990
+150,all5070,Total balance on trades presently derogatory occurred in the last 6 months including collections,$,0-999999990,numeric,0,999999990
+151,all5071,Total balance on trades presently derogatory occurred in the last 6 months excluding collections,$,0-999999990,numeric,0,999999990
+152,all5072,Total balance on trades presently derogatory including collections,$,0-999999990,numeric,0,999999990
+153,all5073,Total balance on trades presently derogatory excluding collections,$,0-999999990,numeric,0,999999990
+154,all5074,Total balance on trades ever derogatory including collections,$,0-999999990,numeric,0,999999990
+155,all5075,Total balance on trades ever derogatory excluding collections,$,0-999999990,numeric,0,999999990
+156,all5301,Total charge-off amount on unsatisfied charge-off trades,$,0-999999990,numeric,0,999999990
+157,all5320,Total credit amount on open trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+158,all5360,Total credit amount on unsatisfied derogatory trades including collections,$,0-999999990,numeric,0,999999990
+159,all5420,Maximum credit amount on open trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+160,all5460,Maximum credit amount on unsatisfied derogatory trades including collections,$,0-999999990,numeric,0,999999990
+161,all5747,Total amount past due on trades presently 90-180 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+162,all5770,Total amount past due on trades presently derogatory occurred in the last 6 months excluding collections,$,0-999999990,numeric,0,999999990
+163,all5825,Total monthly payment on open trades reported in the last 6 months excluding real-estate property management trades,$,0-999999990,numeric,0,999999990
+164,all5830,"Total monthly payment on open, or closed with a balance > $0 trades, reported in the last 6 months excluding derogatory and collection trades ",$,0-999999990,numeric,0,999999990
+165,all5935,"Total actual payment on open, or closed with a balance > $0 trades, excluding derogatory trades, reported in the last 6 months, excluding real-estate property management trades ",$,0-999999990,numeric,0,999999990
+166,all6100,Worst present status on a trade including collections and indeterminates,Rank,0-400,numeric,0,400
+167,all6120,Worst present status on an open trade opened in the last 24 months,Rank,0-400,numeric,0,400
+168,all6190,Worst present status on an open trade reported in the last 6 months,Rank,0-400,numeric,0,400
+169,all6203,"Worst ever status on the most recently opened trade, excluding collections including indeterminates",Rank,0-400,numeric,0,400
+170,all6220,Worst ever status on a trade opened in the last 24 months excluding collections including indeterminates,Rank,0-400,numeric,0,400
+171,all6250,Worst ever status on a trade in the first 12 months of open date excluding collections including indeterminates,Rank,0-400,numeric,0,400
+172,all6280,Worst ever status on a trade in the last 24 months including collections and indeterminates,Rank,0-400,numeric,0,400
+173,all6400,Worst present status on a trade excluding collections including indeterminates,Rank,0-400,numeric,0,400
+174,all6600,"Worst ever status on a non-collection trade when the only collection present is medical, including indeterminates",Rank,0-400,numeric,0,400
+175,all6900,Worst ever status on a trade excluding collections including indeterminates,Rank,0-400,numeric,0,400
+176,all6970,Worst ever status on a trade in the last 12 months excluding collections including indeterminates,Rank,0-400,numeric,0,400
+177,all6980,Worst ever status on a trade in the last 24 months excluding collections including indeterminates,Rank,0-400,numeric,0,400
+178,all7110,Overall balance to credit amount ratio on open trades reported in the last 6 months with credit amount > $0,%,0-990,numeric,0,990
+179,all7111,Overall balance to credit amount ratio on open trades with credit amount > $0,%,0-990,numeric,0,990
+180,all7140,Overall balance to credit limit ratio on open trades reported in the last 6 months with credit limit > $0,%,0-990,numeric,0,990
+181,all7310,Percentage of trades excluding collections that are open trades reported in the last 6 months,%,0-100,numeric,0,100
+182,all7311,Percentage of trades excluding collections that are open trades,%,0-100,numeric,0,100
+183,all7312,Percentage of trades reported in the last 6 months excluding collections that are open trades,%,0-100,numeric,0,100
+184,all7330,Percentage of trades excluding collections that are never delinquent or derogatory,%,0-100,numeric,0,100
+185,all7333,Percentage of trades reported in the last 12 months excluding collections that are never delinquent or derogatory occurred in the last 12 months ,%,0-100,numeric,0,100
+186,all7334,Percentage of trades reported in the last 24 months excluding collections that are never delinquent or derogatory occurred in the last 24 months ,%,0-100,numeric,0,100
+187,all7336,Percentage of trades excluding collections that are never delinquent or derogatory occurred in the last 6 months,%,0-100,numeric,0,100
+188,all7347,Percentage of trades reported in the last 12 months including collections that are 30 or more days delinquent or derogatory occurred in the last 12 months,%,0-100,numeric,0,100
+189,all7350,Percentage of trades including collections that are ever 60 or more days delinquent or derogatory,%,0-100,numeric,0,100
+190,all7358,Percentage of trades reported in the last 24 months including collections that are 60 or more days delinquent or derogatory occurred in the last 24 months,%,0-100,numeric,0,100
+191,all7360,Percentage of trades including collections that are ever 90 or more days delinquent or derogatory,%,0-100,numeric,0,100
+192,all7370,Percentage of trades including collections that are ever derogatory,%,0-100,numeric,0,100
+193,all7442,Percentage of trades reported in the last 6 months excluding collections that are 30 or more days delinquent or derogatory occurred in the last 6 months,%,0-100,numeric,0,100
+194,all7460,Percentage of trades excluding collections that are ever 90 or more days delinquent or derogatory,%,0-100,numeric,0,100
+195,all7470,Percentage of trades excluding collections that are ever derogatory,%,0-100,numeric,0,100
+196,all7516,Percentage of open trades that were opened in the last 6 months ,%,0-100,numeric,0,100
+197,all7517,Percentage of open trades that were opened in the last 12 months ,%,0-100,numeric,0,100
+198,all7518,Percentage of open trades that were opened in the last 24 months ,%,0-100,numeric,0,100
+199,all7936,Percentage of trades reported in the last 6 months including collections that are never delinquent or derogatory occurred in the last 6 months,%,0-100,numeric,0,100
+200,all8020,Total number of months since all trades were opened excluding collections,Months,0-999990,numeric,0,999990
+201,all8026,Total number of months since all bankruptcy trades were opened,Months,0-999990,numeric,0,999990
+202,all8110,Number of months since the most recently closed trade excluding presently derogatory trades and collections,Months,0-9990,numeric,0,9990
+203,all8122,Number of months since the most recently opened open trade excluding collections,Months,0-9990,numeric,0,9990
+204,all8150,"Number of months since the most recent 30 days delinquency on trades, excluding collections and other unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+205,all8151,"Number of months since the most recent 30-180 days delinquency on trades, excluding collections and other unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+206,all8154,"Number of months since the most recently cured 30-180 days delinquency in the last 24 months, excluding collections and other unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+207,all8157,"Number of months since the most recent 90-180 days delinquency on trades, excluding collections and other unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+208,all8162,Number of months since the most recent unsatisfied repossession including indeterminates,Months,0-9990,numeric,0,9990
+209,all8163,Number of months since the most recent repossession including indeterminates,Months,0-9990,numeric,0,9990
+210,all8167,Number of months since the most recent bankruptcy trade including indeterminates,Months,0-9990,numeric,0,9990
+211,all8170,Shortest life span of a trade (in months) excluding collections including indeterminates,Months,0-9990,numeric,0,9990
+212,all8171,Shortest duration (in months) in between two 30 days delinquencies excluding collections including indeterminates,Months,0-90,numeric,0,90
+213,all8172,Shortest duration (in months) in between two 30-180 days delinquencies excluding collections including indeterminates,Months,0-90,numeric,0,90
+214,all8221,Number of months since the oldest and never delinquent or derogatory trade was opened including indeterminates,Months,0-9990,numeric,0,9990
+215,all8223,Number of months since the oldest and ever 90 or more days delinquent or derogatory trades was opened excluding collections including indeterminates,Months,0-9990,numeric,0,9990
+216,all8250,"Number of months since the oldest 30 days delinquency on trades, excluding collections including indeterminates",Months,0-9990,numeric,0,9990
+217,all8253,"Number of months since the oldest 60 days delinquency on trades, excluding collections including indeterminates",Months,0-9990,numeric,0,9990
+218,all8257,"Number of months since the oldest 90-180 days delinquency on trades, excluding collections including indeterminates",Months,0-9990,numeric,0,9990
+219,all8259,"Number of months since the oldest derogatory occurrence on trades, excluding collections including indeterminates",Months,0-9990,numeric,0,9990
+220,all8270,Longest life span of a trade (in months) excluding collections including indeterminates,Months,0-9990,numeric,0,9990
+221,all8271,Longest duration (in months) in between two 30 days delinquencies excluding collections including indeterminates,Months,0-90,numeric,0,90
+222,all8321,Average number of months since never delinquent or derogatory trades were opened including indeterminates,Months,0-9990,numeric,0,9990
+223,all8325,Average number of months since ever 90 or more days delinquent or derogatory trades were opened including collections and indeterminates,Months,0-9990,numeric,0,9990
+224,all8351,"Average number of months on trades since the most recent 30, 60, 90, and 120-180 days delinquency and derogatory excluding collections including indeterminates",Months,0-9990,numeric,0,9990
+225,all8352,"Average number of months on trades since the most recent 30, 60, 90, and 120-180 days delinquency and derogatory including collections and indeterminates",Months,0-9990,numeric,0,9990
+226,all8354,Average number of months on trades since the most recent 90 and 120-180 days delinquency and derogatory excluding collections including indeterminates,Months,0-9990,numeric,0,9990
+227,all8370,Average life span of a trade (in months) excluding collections including indeterminates,Months,0-9990,numeric,0,9990
+228,all8423,Number of days between oldest and most recent trade opened in the last 30 days excluding collections including indeterminates,Days,0-990,numeric,0,990
+229,all8552,Number of months since the most recent 30 or more days delinquency or derogatory excluding collections including indeterminates,Months,0-9990,numeric,0,9990
+230,all8555,Number of months since the most recent 60 or more days delinquency or derogatory excluding collections including indeterminates,Months,0-9990,numeric,0,9990
+231,all8558,Number of months since the most recent 90 or more days delinquency or derogatory excluding collections including indeterminates,Months,0-9990,numeric,0,9990
+232,all8560,Number of months since the most recent derogatory on trades excluding collections including indeterminates,Months,0-9990,numeric,0,9990
+233,all8723,Average number of days between open dates for trades opened in the last 30 days excluding collections including indeterminates (requires 2 or more trades),Days,0-990,numeric,0,990
+234,all8725,Average number of days between open dates for trades opened in the last 3 months excluding collections including indeterminates (requires 2 or more trades),Days,0-990,numeric,0,990
+235,all8800,"Most recent month of the longest consecutive months with a satisfactory balance activity status on trades, excluding collections and other unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+236,all9118,Total number of public records filed within the last 24 months,PubRec,0-90,numeric,0,90
+237,all9122,Total number of public record dismissed bankruptcies,PubRec,0-90,numeric,0,90
+238,all9125,Total number of public record bankruptcies with status reported in the last 24 months,PubRec,0-90,numeric,0,90
+239,all9130,Total number of public record judgments,PubRec,0-90,numeric,0,90
+240,all9134,Total number of public record judgments with status reported in the last 12 months,PubRec,0-90,numeric,0,90
+241,all9135,Total number of public record judgments with status reported in the last 24 months,PubRec,0-90,numeric,0,90
+242,all9138,Total number of public record judgments filed within the last 24 months,PubRec,0-90,numeric,0,90
+243,all9139,Total number of public record judgments with amount > $1000,PubRec,0-90,numeric,0,90
+244,all9141,Total number of unpaid public record tax liens,PubRec,0-90,numeric,0,90
+245,all9145,Total number of public record tax liens with status reported in the last 24 months,PubRec,0-90,numeric,0,90
+246,all9148,Total number of public record tax liens filed within the last 24 months,PubRec,0-90,numeric,0,90
+247,all9160,Total number of public record chapter 13 bankruptcies,PubRec,0-90,numeric,0,90
+248,all9171,Total number of unpaid public record tax liens with amount > $500,PubRec,0-90,numeric,0,90
+249,all9177,Total number of unpaid public record tax liens filed within the last 12 months,PubRec,0-90,numeric,0,90
+250,all9178,Total number of unpaid public record tax liens filed within the last 24 months,PubRec,0-90,numeric,0,90
+251,all9187,Total number of pending public record judgments filed within the last 12 months,PubRec,0-90,numeric,0,90
+252,all9188,Total number of pending public record judgments filed within the last 24 months,PubRec,0-90,numeric,0,90
+253,all9189,Total number of pending public record judgments with amount > $1000,PubRec,0-90,numeric,0,90
+254,all9210,Number of months since the most recent public record filed,Months,0-9990,numeric,0,9990
+255,all9219,Number of months since the most recent public record status date,Months,0-9990,numeric,0,9990
+256,all9220,Number of months since the most recent public record bankruptcy filed,Months,0-9990,numeric,0,9990
+257,all9222,Number of months since the most recent public record bankruptcy dismissed ,Months,0-9990,numeric,0,9990
+258,all9223,Number of months since the most recent public record bankruptcy filed excluding dismissed and discharged,Months,0-9990,numeric,0,9990
+259,all9226,Number of months since the most recent public record bankruptcy discharged,Months,0-9990,numeric,0,9990
+260,all9229,Number of months since the most recent public record bankruptcy status date,Months,0-9990,numeric,0,9990
+261,all9230,Number of months since the most recent public record judgment filed,Months,0-9990,numeric,0,9990
+262,all9240,Number of months since the most recent unpaid public record tax lien filed,Months,0-9990,numeric,0,9990
+263,all9249,Number of months since the most recent public record tax lien status date,Months,0-9990,numeric,0,9990
+264,all9250,Number of months since the most recent public record chapter 7 bankruptcy status date,Months,0-9990,numeric,0,9990
+265,all9260,Number of months since the most recent public record chapter 13 bankruptcy status date,Months,0-9990,numeric,0,9990
+266,all9280,Number of months since the most recent pending public record judgment filed,Months,0-9990,numeric,0,9990
+267,all9330,Total amount on public record judgments,$,0-999999990,numeric,0,999999990
+268,all9380,Total amount on pending public record judgments,$,0-999999990,numeric,0,999999990
+269,all9950,"Presence of outstanding federal debts, including default student loans, federal tax lien, unpaid child/family support, or other miscellaneous debts excluding collections including indeterminates",Flag,0-1,string,0,1
+270,all9951,"Presence of outstanding governmental agency debts, including default student loans, tax lien, unpaid child/family support, or other miscellaneous debts excluding collections including indeterminates",Flag,0-1,string,0,1
+271,aua0300,Total number of auto loan or lease trades,Trades,0-90,numeric,0,90
+272,aua0416,Total number of open auto loan or lease trades reported in the last 6 months ,Trades,0-90,numeric,0,90
+273,aua0426,Total number of open auto loan or lease trades reported in the last 6 months that will mature in the next 6 months,Trades,0-90,numeric,0,90
+274,aua0436,Total number of open auto loan or lease trades opened in the last 6 months ,Trades,0-90,numeric,0,90
+275,aua1305,Total number of early payoff auto loan or lease trades never delinquent or derogatory with 1 or more months remaining to maturity ,Trades,0-90,numeric,0,90
+276,aua1380,Total number of auto loan or lease trades never delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+277,aua2320,Total number of auto loan or lease trades ever 30 or more days delinquent or derogatory,Trades,0-90,numeric,0,90
+278,aua2350,Total number of auto loan or lease trades ever 60 or more days delinquent or derogatory ,Trades,0-90,numeric,0,90
+279,aua2358,Total number of auto loan or lease trades ever 60 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+280,aua2388,Total number of auto loan or lease trades ever 90 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+281,aua5020,Total balance on open auto loan or lease trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+282,aua5400,Maximum credit amount on auto loan or lease trades including indeterminates,$,0-999999990,numeric,0,999999990
+283,aua5420,Maximum credit amount on open auto loan or lease trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+284,aua5421,Credit amount on the most recently opened open auto loan or lease trade with credit amount > $0 ,$,0-999999990,numeric,0,999999990
+285,aua5520,Average credit amount on open auto loan or lease trades reported in the last 6 months with credit amount > $0,$,0-999999990,numeric,0,999999990
+286,aua6160,Worst present status on an auto loan or lease trade reported in the last 6 months including indeterminates,Rank,0-400,numeric,0,400
+287,aua6280,Worst ever status on an auto loan or lease trade in the last 24 months including indeterminates,Rank,0-400,numeric,0,400
+288,aua8122,Number of months since the most recently opened open auto loan or lease trade,Months,0-9990,numeric,0,9990
+289,aua8151,"Number of months since the most recent 30-180 days delinquency on auto loan or lease trades, excluding unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+290,aua8220,Number of months since the oldest auto loan or lease trade was opened including indeterminates,Months,0-9990,numeric,0,9990
+291,mfx5029,Total balance on open first mortgage trades reported in the last 6 months with joint accounts weighted excluding authorized user trades ,$,0-999999990,numeric,0,999999990
+292,bcc0300,Total number of revolving bankcard trades,Trades,0-90,numeric,0,90
+293,bcc0316,Total number of revolving bankcard trades reported in the last 6 months ,Trades,0-90,numeric,0,90
+294,bcc0400,Total number of open revolving bankcard trades,Trades,0-90,numeric,0,90
+295,bcc0438,Total number of open revolving bankcard trades opened in the last 24 months ,Trades,0-90,numeric,0,90
+296,bcc0446,Total number of open revolving bankcard trades opened at least 6 months reported in the last 6 months ,Trades,0-90,numeric,0,90
+297,bcc0700,Total number of closed revolving bankcard trades,Trades,0-90,numeric,0,90
+298,bcc1300,Total number of revolving bankcard trades never delinquent or derogatory,Trades,0-90,numeric,0,90
+299,bcc1360,Total number of revolving bankcard trades never delinquent or derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+300,bcc1370,Total number of revolving bankcard trades never delinquent or derogatory occurred in the last 12 months,Trades,0-90,numeric,0,90
+301,bcc1380,Total number of revolving bankcard trades never delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+302,bcc2000,Total number of open revolving bankcard trades presently satisfactory reported in the last 6 months ,Trades,0-90,numeric,0,90
+303,bcc2306,Total number of revolving bankcard trades 30 days delinquent in the last 6 months excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+304,bcc2307,Total number of revolving bankcard trades 30 days delinquent in the last 12 months excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+305,bcc2308,Total number of revolving bankcard trades 30 days delinquent in the last 24 months excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+306,bcc2326,Total number of revolving bankcard trades ever 30 or more days delinquent or derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+307,bcc2328,Total number of revolving bankcard trades ever 30 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+308,bcc2336,Total number of revolving bankcard trades 60 days delinquent in the last 6 months excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+309,bcc2350,Total number of revolving bankcard trades ever 60 or more days delinquent or derogatory ,Trades,0-90,numeric,0,90
+310,bcc2356,Total number of revolving bankcard trades ever 60 or more days delinquent or derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+311,bcc2357,Total number of revolving bankcard trades ever 60 or more days delinquent or derogatory occurred in the last 12 months,Trades,0-90,numeric,0,90
+312,bcc2358,Total number of revolving bankcard trades ever 60 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+313,bcc2366,Total number of revolving bankcard trades 90 days delinquent in the last 6 months excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+314,bcc2367,Total number of revolving bankcard trades 90 days delinquent in the last 12 months excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+315,bcc2386,Total number of revolving bankcard trades ever 90 or more days delinquent or derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+316,bcc2387,Total number of revolving bankcard trades ever 90 or more days delinquent or derogatory occurred in the last 12 months,Trades,0-90,numeric,0,90
+317,bcc2388,Total number of revolving bankcard trades ever 90 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+318,bcc2607,"Total number of revolving bankcard trades presently satisfactory or 30 days delinquent, and ever 30 or 60 days delinquent opened in the last 12 months",Trades,0-90,numeric,0,90
+319,bcc2930,Total number of revolving bankcard trades with maximum delinquency of 60 days ever,Trades,0-90,numeric,0,90
+320,bcc3110,Total number of revolving bankcard trades with a balance > $0 including indeterminates,Trades,0-90,numeric,0,90
+321,bcc3341,Total number of revolving bankcard trades with a balance activity in the last 3 months excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+322,bcc3342,Total number of revolving bankcard trades with a balance activity 4-6 months ago excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+323,bcc3343,Total number of revolving bankcard trades with a balance activity 7-9 months ago excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+324,bcc3344,Total number of revolving bankcard trades with a balance activity 10-12 months ago excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+325,bcc3345,Total number of revolving bankcard trades with a balance activity 13-18 months ago excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+326,bcc3346,Total number of revolving bankcard trades with a balance activity 19-24 months ago excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+327,bcc3410,Total number of open revolving bankcard trades with a balance > $0,Trades,0-90,numeric,0,90
+328,bcc3421,Total number of open revolving bankcard trades with a balance to credit amount ratio >= 50 reported in the last 6 months ,Trades,0-90,numeric,0,90
+329,bcc3423,Total number of open revolving bankcard trades with a balance to credit amount ratio >= 100 reported in the last 6 months ,Trades,0-90,numeric,0,90
+330,bcc3456,Total number of open revolving bankcard trades with credit amount >= $5000 reported in the last 6 months,Trades,0-90,numeric,0,90
+331,bcc3476,Total number of open revolving bankcard trades with no balance activity in the last 6 months,Trades,0-90,numeric,0,90
+332,bcc3510,Total number of revolving bankcard trades with a balance > $0 reported in the last 6 months excluding derogatory trades,Trades,0-90,numeric,0,90
+333,bcc3512,Total number of revolving bankcard trades with a balance > $0 opened in the last 12 months reported in the last 6 months excluding derogatory trades,Trades,0-90,numeric,0,90
+334,bcc3515,Total number of revolving bankcard trades with a balance >= $1000 reported in the last 6 months excluding derogatory trades,Trades,0-90,numeric,0,90
+335,bcc4070,Total number of occurrences of 30 days delinquency in the last 12 months on revolving bankcard trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+336,bcc4080,Total number of occurrences of 30 days delinquency in the last 24 months on revolving bankcard trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+337,bcc4380,Total number of occurrences of 60 days delinquency in the last 24 months on revolving bankcard trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+338,bcc5020,Total balance on open revolving bankcard trades reported in the last 6 months,$,0-999999990,numeric,0,999999990
+339,bcc5030,"Total balance on open, or closed with a balance > $0 revolving bankcard trades, reported in the last 6 months excluding derogatory trades",$,0-999999990,numeric,0,999999990
+340,bcc5038,"Total balance on open, or closed with a balance > $0 revolving bankcard trades with actual payment > $0, excluding derogatory trades, reported in the last 6 months",$,0-999999990,numeric,0,999999990
+341,bcc5120,Maximum balance on open revolving bankcard trades reported in the last 6 months,$,0-999999990,numeric,0,999999990
+342,bcc5122,Balance on the oldest open revolving bankcard trade ,$,0-999999990,numeric,0,999999990
+343,bcc5227,Actual payment on an open revolving bankcard trade with the highest balance and actual payment > $0,$,0-999999990,numeric,0,999999990
+344,bcc5239,"Total amount difference between balance and actual payment on open, or closed with a balance > $0 revolving bankcard trades, with a balance >= actual payment and actual payment > $0, excluding derogatory trades, reported in the last 6 months ",$,0-999999990,numeric,0,999999990
+345,bcc5420,Maximum credit amount on open revolving bankcard trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+346,bcc5422,Credit amount on the oldest open revolving bankcard trade with credit amount > $0,$,0-999999990,numeric,0,999999990
+347,bcc5423,Maximum credit amount on open revolving bankcard trades,$,0-999999990,numeric,0,999999990
+348,bcc5520,Average credit amount on open revolving bankcard trades reported in the last 6 months with credit amount > $0,$,0-999999990,numeric,0,999999990
+349,bcc5627,Total available credit limit on open revolving bankcard trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+350,bcc5820,Total monthly payment on open revolving bankcard trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+351,bcc5838,"Total scheduled payment on open, or closed with a balance > $0 revolving bankcard trades with actual payment > $0, excluding derogatory trades, reported in the last 6 months",$,0-999999990,numeric,0,999999990
+352,bcc6160,Worst present status on a revolving bankcard trade reported in the last 6 months including indeterminates,Rank,0-400,numeric,0,400
+353,bcc6280,Worst ever status on a revolving bankcard trade in the last 24 months including indeterminates,Rank,0-400,numeric,0,400
+354,bcc7110,Overall balance to credit amount ratio on open revolving bankcard trades reported in the last 6 months with credit amount > $0,%,0-990,numeric,0,990
+355,bcc7120,Maximum single balance to credit amount ratio on an open revolving bankcard trade reported in the last 6 months with credit amount > $0,%,0-990,numeric,0,990
+356,bcc7130,Balance to credit amount ratio on an open revolving bankcard trade with the highest balance and credit amount > $0 reported in the last 6 months,%,0-990,numeric,0,990
+357,bcc7147,Overall balance to credit limit ratio on open revolving bankcard trades opened in the last 12 months with credit limit > $0,%,0-990,numeric,0,990
+358,bcc7216,Percentage of balance on open revolving trades reported in the last 6 months that are revolving bankcard trades (requires 2 or more qualified trades),%,0-990,numeric,0,990
+359,bcc7437,Percentage of bankcard revolving trades that are never delinquent or derogatory occurred in the last 12 months ,%,0-100,numeric,0,100
+360,bcc7460,Percentage of revolving bankcard trades that are ever 90 or more days delinquent or derogatory,%,0-100,numeric,0,100
+361,bcc7470,Percentage of revolving bankcard trades that are ever derogatory,%,0-100,numeric,0,100
+362,bcc7481,Percentage of open revolving bankcard trades reported in the last 6 months that have a balance to credit amount ratio >= 50,%,0-100,numeric,0,100
+363,bcc7482,Percentage of open revolving bankcard trades reported in the last 6 months that have a balance to credit amount ratio >= 70,%,0-100,numeric,0,100
+364,bcc7483,Percentage of open revolving bankcard trades reported in the last 6 months that have a balance to credit amount ratio >= 100,%,0-100,numeric,0,100
+365,bcc7592,Percentage of open revolving bankcard trades with actual payment > $0 reported in the last 6 months that have actual an payment minus scheduled payment >= $1000,%,0-100,numeric,0,100
+366,bcc7610,Percentage of total actual payment on open revolving bankcard trades that have the highest balance and actual payment > $0,%,0-100,numeric,0,100
+367,bcc7620,Percentage of total actual payment on open revolving bankcard trades that have the highest credit amount with credit amount > $0,%,0-100,numeric,0,100
+368,bcc7700,"Percentage of total available payment history on open revolving bankcard trades reported in the last 6 months that have balance activities, excluding unsatisfied derogatory",%,0-100,numeric,0,100
+369,bcc7707,"Percentage of total payment history in the last 12 months on open revolving bankcard trades opened at least 6 months that have balance activities, reported in the last 12 months and excluding unsatisfied derogatory",%,0-100,numeric,0,100
+370,bcc7708,"Percentage of total payment history in the last 24 months on open revolving bankcard trades opened at least 6 months that have balance activities, reported in the last 24 months and excluding unsatisfied derogatory",%,0-100,numeric,0,100
+371,bcc7800,"Ratio of total available credit amount on open revolving bankcard trades to total monthly payments on open trades, reported in the last 6 months ",Months,0-999999990,numeric,0,999999990
+372,bcc7801,"Ratio of total available credit amount on open revolving bankcard trades to total monthly payments on open installment, first and second mortgage trades, reported in the last 6 months ",Months,0-999999990,numeric,0,999999990
+373,bcc7910,Percentage of open revolving bankcard trades reported in the last 6 months that have a balance activity ratio >= 50 ,%,0-100,numeric,0,100
+374,bcc8120,Number of months since the most recently opened revolving bankcard trade including indeterminates,Months,0-9990,numeric,0,9990
+375,bcc8122,Number of months since the most recently opened open revolving bankcard trade,Months,0-9990,numeric,0,9990
+376,bcc8132,Number of days since the most recently opened open revolving bankcard trade,Days,0-99990,numeric,0,99990
+377,bcc8222,Number of months since the oldest open revolving bankcard trade was opened,Months,0-9990,numeric,0,9990
+378,bcc8320,Average number of months since revolving bankcard trades were opened including indeterminates,Months,0-9990,numeric,0,9990
+379,bcc8337,Average number of months with a balance activity in the last 12 months on open revolving bankcard trades opened at least 6 months,Months,0-13,numeric,0,13
+380,mfx5829,Total monthly payment on open first mortgage trades reported in the last 6 months with joint accounts weighted excluding authorized user trades,$,0-999999990,numeric,0,999999990
+381,mtx5039,"Total balance on open, or closed with a balance > $0 mortgage type trades, reported in the last 6 months with joint accounts weighted excluding derogatory and authorized user trades",$,0-999999990,numeric,0,999999990
+382,mtx5839,"Total monthly payment on open, or closed with a balance > $0 mortgage type trades, reported in the last 6 months with joint accounts weighted excluding derogatory and authorized user trades",$,0-999999990,numeric,0,999999990
+383,use5030,"Total balance on open, or closed with a balance > $0 authorized user trades, reported in the last 6 months excluding derogatory trades",$,0-999999990,numeric,0,999999990
+384,use5320,Total credit amount on open authorized user trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+385,use8220,Number of months since the oldest authorized user trade was opened including indeterminates,Months,0-9990,numeric,0,9990
+386,brc0300,Total number of credit card trades,Trades,0-90,numeric,0,90
+387,brc0400,Total number of open credit card trades,Trades,0-90,numeric,0,90
+388,brc1300,Total number of credit card trades never delinquent or derogatory,Trades,0-90,numeric,0,90
+389,brc2000,Total number of open credit card trades presently satisfactory reported in the last 6 months ,Trades,0-90,numeric,0,90
+390,brc2358,Total number of credit card trades ever 60 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+391,brc2388,Total number of credit card trades ever 90 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+392,brc3425,Total number of open credit card trades with a balance to credit limit ratio >= 75 reported in the last 6 months ,Trades,0-90,numeric,0,90
+393,brc3480,Total number of open credit card trades with actual payment > $0 reported in the last 6 months,Trades,0-90,numeric,0,90
+394,brc3485,Total number of open credit card trades with actual payment minus scheduled payment >= $1000 reported in the last 6 months ,Trades,0-90,numeric,0,90
+395,brc3510,Total number of credit card trades with a balance > $0 reported in the last 6 months excluding derogatory trades,Trades,0-90,numeric,0,90
+396,brc5020,Total balance on open credit card trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+397,brc5030,"Total balance on open, or closed with a balance > $0 credit card trades, reported in the last 6 months excluding derogatory trades",$,0-999999990,numeric,0,999999990
+398,brc5038,"Total balance on open, or closed with a balance > $0 credit card trades with actual payment > $0, excluding derogatory trades, reported in the last 6 months",$,0-999999990,numeric,0,999999990
+399,brc5238,"Total amount difference between actual payment and scheduled payment on open, or closed with a balance > $0 credit card trades, with actual payment >= scheduled payment and actual payment > $0, excluding derogatory trades, reported in the last 6 months",$,0-999999990,numeric,0,999999990
+400,brc5620,Total available credit amount on open credit card trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+401,brc5830,"Total monthly payment on open, or closed with a balance > $0 credit card trades, reported in the last 6 months excluding derogatory trades",$,0-999999990,numeric,0,999999990
+402,brc5838,"Total scheduled payment on open, or closed with a balance > $0 credit card trades with actual payment > $0, excluding derogatory trades, reported in the last 6 months",$,0-999999990,numeric,0,999999990
+403,brc5930,"Total actual payment on open, or closed with a balance > $0 credit card trades, excluding derogatory trades, reported in the last 6 months ",$,0-999999990,numeric,0,999999990
+404,brc6200,Worst ever status on a credit card trade including indeterminates,Rank,0-400,numeric,0,400
+405,brc7140,Overall balance to credit limit ratio on open credit card trades reported in the last 6 months with credit limit > $0,%,0-990,numeric,0,990
+406,brc7150,"Overall scheduled payment to actual payment ratio on open credit card trades with actual payment > $0, reported in the last 6 months ",%,0-990,numeric,0,990
+407,brc7517,Percentage of open credit card trades that were opened in the last 12 months ,%,0-100,numeric,0,100
+408,brc7592,Percentage of open credit card trades with actual payment > $0 reported in the last 6 months that are actual payment minus scheduled payment >= $1000,%,0-100,numeric,0,100
+409,brc8120,Number of months since the most recently opened credit card trade including indeterminates,Months,0-9990,numeric,0,9990
+410,brc8158,Number of months since the most recent 90 or more days delinquency or derogatory on credit card trades including indeterminates,Months,0-9990,numeric,0,9990
+411,brc8320,Average number of months since credit card trades were opened including indeterminates,Months,0-9990,numeric,0,9990
+412,col2750,Total number of collection trades,Trades,0-90,numeric,0,90
+413,col2757,Total number of collections that were placed with the collector in the last 12 months ,Trades,0-90,numeric,0,90
+414,col2766,Total number of medical collections that were placed with the collector in the last 6 months ,Trades,0-90,numeric,0,90
+415,col2767,Total number of medical collections that were placed with the collector in the last 12 months ,Trades,0-90,numeric,0,90
+416,col2768,Total number of medical collections that were placed with the collector in the last 24 months ,Trades,0-90,numeric,0,90
+417,col2770,"Total number of banking, financial, or credit union collection trades",Trades,0-90,numeric,0,90
+418,col2780,Total number of retail collection trades,Trades,0-90,numeric,0,90
+419,col2790,Total number of utility collection trades,Trades,0-90,numeric,0,90
+420,col3200,Total number of unsatisfied collections,Trades,0-90,numeric,0,90
+421,col3201,Total number of satisfied collections with status date within the last 6 months,Trades,0-90,numeric,0,90
+422,col3204,Total number of unsatisfied student loan collections,Trades,0-90,numeric,0,90
+423,col3206,Total number of unsatisfied medical collections,Trades,0-90,numeric,0,90
+424,col3207,"Total number of unsatisfied banking, financial, or credit union collections",Trades,0-90,numeric,0,90
+425,col3208,Total number of unsatisfied retail collections,Trades,0-90,numeric,0,90
+426,col3211,Total number of non-medical collections with a balance > $500,Trades,0-90,numeric,0,90
+427,col3212,Total number of collections with a balance > $500 reported in the last 12 months,Trades,0-90,numeric,0,90
+428,col3217,Total number of medical collections with a balance > $500,Trades,0-90,numeric,0,90
+429,col3219,Total number of medical collections with a balance > $1000,Trades,0-90,numeric,0,90
+430,col3236,Total number of satisfied collections that were placed with the collector in the last 6 months ,Trades,0-90,numeric,0,90
+431,col3237,Total number of satisfied collections that were placed with the collector in the last 12 months ,Trades,0-90,numeric,0,90
+432,col3242,Total number of unsatisfied medical collections that were placed with the collector in the last 6 months ,Trades,0-90,numeric,0,90
+433,col3243,Total number of unsatisfied medical collections that were placed with the collector in the last 12 months ,Trades,0-90,numeric,0,90
+434,col5060,Total balance on collections,$,0-999999990,numeric,0,999999990
+435,col5062,Total balance on collections reported in the last 6 months,$,0-999999990,numeric,0,999999990
+436,col5063,Total balance on collections that were placed with the collector in the last 24 months ,$,0-999999990,numeric,0,999999990
+437,col5064,Total balance on student loan collections,$,0-999999990,numeric,0,999999990
+438,col5066,Total balance on medical collections,$,0-999999990,numeric,0,999999990
+439,col5067,"Total balance on banking, financial, or credit union collections ",$,0-999999990,numeric,0,999999990
+440,col5068,Total balance on retail collections ,$,0-999999990,numeric,0,999999990
+441,col5069,Total balance on utility collections ,$,0-999999990,numeric,0,999999990
+442,col8165,Number of months since the most recent collection including indeterminates,Months,0-9990,numeric,0,9990
+443,col8168,Number of months since the most recent unsatisfied collection including indeterminates,Months,0-9990,numeric,0,9990
+444,col8190,Number of months since the most recent collection (excluding satisfied medical collection) including indeterminates,Months,0-9990,numeric,0,9990
+445,col8191,Number of months since the most recent medical collection with a balance > $200 including indeterminates,Months,0-9990,numeric,0,9990
+446,col8192,Number of months since the most recent non-medical collection with a balance > $200 including indeterminates,Months,0-9990,numeric,0,9990
+447,col8194,Number of months since the most recent student loan collection including indeterminates,Months,0-9990,numeric,0,9990
+448,col8195,Number of months since the most recent non-medical collection including indeterminates,Months,0-9990,numeric,0,9990
+449,col8196,Number of months since the most recent medical collection including indeterminates,Months,0-9990,numeric,0,9990
+450,col8198,Number of months since the most recent retail collection including indeterminates,Months,0-9990,numeric,0,9990
+451,col8199,Number of months since the most recent utility collection including indeterminates,Months,0-9990,numeric,0,9990
+452,fip0300,Total number of personal finance trades,Trades,0-90,numeric,0,90
+453,fip0416,Total number of open personal finance trades reported in the last 6 months ,Trades,0-90,numeric,0,90
+454,fip0438,Total number of open personal finance trades opened in the last 24 months ,Trades,0-90,numeric,0,90
+455,fip2000,Total number of open personal finance trades presently satisfactory reported in the last 6 months ,Trades,0-90,numeric,0,90
+456,fip2320,Total number of personal finance trades ever 30 or more days delinquent or derogatory,Trades,0-90,numeric,0,90
+457,fip2328,Total number of personal finance trades ever 30 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+458,fip2350,Total number of personal finance trades ever 60 or more days delinquent or derogatory ,Trades,0-90,numeric,0,90
+459,fip2358,Total number of personal finance trades ever 60 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+460,fip2388,Total number of personal finance trades ever 90 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+461,fip5020,Total balance on open personal finance trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+462,fip5120,Maximum balance on open personal finance trades reported in the last 6 months,$,0-999999990,numeric,0,999999990
+463,fip5320,Total credit amount on open personal finance trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+464,fip5820,Total monthly payment on open personal finance trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+465,fip6280,Worst ever status on a personal finance trade in the last 24 months including indeterminates,Rank,0-400,numeric,0,400
+466,fip8120,Number of months since the most recently opened personal finance trade including indeterminates,Months,0-9990,numeric,0,9990
+467,fip8220,Number of months since the oldest personal finance trade was opened including indeterminates,Months,0-9990,numeric,0,9990
+468,hlc0401,Total number of open home equity line of credit trades with credit line suspended,Trades,0-90,numeric,0,90
+469,hlc0402,Total number of open home equity line of credit trades with a balance= $0,Trades,0-90,numeric,0,90
+470,hlc0416,Total number of open home equity line of credit trades reported in the last 6 months ,Trades,0-90,numeric,0,90
+471,hlc0700,Total number of closed home equity line of credit trades,Trades,0-90,numeric,0,90
+472,hlc1402,Total number of open home equity line of credit trades with a balance > $0 presently satisfactory reported in the last 6 months ,Trades,0-90,numeric,0,90
+473,hlc2000,Total number of open home equity line of credit trades presently satisfactory reported in the last 6 months ,Trades,0-90,numeric,0,90
+474,hlc2156,Total number of home equity line of credit trades presently 60 or more days delinquent or derogatory occurred in the last 6 months ,Trades,0-90,numeric,0,90
+475,hlc2358,Total number of home equity line of credit trades ever 60 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+476,hlc2388,Total number of home equity line of credit trades ever 90 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+477,hlc3410,Total number of open home equity line of credit trades with a balance > $0,Trades,0-90,numeric,0,90
+478,hlc3482,Total number of open home equity line of credit trades with actual payment minus scheduled payment >= $100 and < $500 reported in the last 6 months ,Trades,0-90,numeric,0,90
+479,hlc3483,Total number of open home equity line of credit trades with actual payment minus scheduled payment >= $500 and < $1000 reported in the last 6 months ,Trades,0-90,numeric,0,90
+480,hlc5020,Total balance on open home equity line of credit trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+481,hlc5021,Total balance on open home equity line of credit trades with credit line suspended reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+482,hlc5030,"Total balance on open, or closed with a balance > $0 home equity line of credit trades, reported in the last 6 months excluding derogatory trades",$,0-999999990,numeric,0,999999990
+483,hlc5238,"Total amount difference between actual payment and scheduled payment on open, or closed with a balance > $0 home equity line of credit trades, with actual payment >= scheduled payment and actual payment > $0, excluding derogatory trades, reported in the last 6 months",$,0-999999990,numeric,0,999999990
+484,hlc6201,Worst ever status on a home equity line of credit trade with credit line suspended including indeterminates,Rank,0-400,numeric,0,400
+485,hlc7130,Balance to credit amount ratio on an open home equity line of credit trade with the highest balance and credit amount > $0 reported in the last 6 months,%,0-990,numeric,0,990
+486,hlc7150,"Overall scheduled payment to actual payment ratio on open home equity line of credit trades with actual payment > $0, reported in the last 6 months ",%,0-990,numeric,0,990
+487,hlc7180,Maximum single scheduled payment to actual payment ratio on an open home equity line of credit trade reported in the last 6 months,%,0-990,numeric,0,990
+488,hlc8220,Number of months since the oldest home equity line of credit trade was opened including indeterminates,Months,0-9990,numeric,0,9990
+489,hlc8222,Number of months since the oldest open home equity line of credit trade was opened,Months,0-9990,numeric,0,9990
+490,hlc8320,Average number of months since home equity line of credit trades were opened including indeterminates,Months,0-9990,numeric,0,9990
+491,iln0300,Total number of installment trades,Trades,0-90,numeric,0,90
+492,iln0316,Total number of installment trades reported in the last 6 months,Trades,0-90,numeric,0,90
+493,iln0403,Total number of open manufactured home installment trades,Trades,0-90,numeric,0,90
+494,iln0416,Total number of open installment trades reported in the last 6 months ,Trades,0-90,numeric,0,90
+495,iln0426,Total number of open installment trades reported in the last 6 months that will mature in the next 6 months,Trades,0-90,numeric,0,90
+496,iln0437,Total number of open installment trades opened in the last 12 months ,Trades,0-90,numeric,0,90
+497,iln1300,Total number of installment trades never delinquent or derogatory,Trades,0-90,numeric,0,90
+498,iln1360,Total number of installment trades never delinquent or derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+499,iln1380,Total number of installment trades never delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+500,iln2000,Total number of open installment trades presently satisfactory reported in the last 6 months ,Trades,0-90,numeric,0,90
+501,iln2136,Total number of installment trades presently 60 days delinquent reported in the last 6 months ,Trades,0-90,numeric,0,90
+502,iln2176,Total number of installment trades presently 90-180 days delinquent reported in the last 6 months ,Trades,0-90,numeric,0,90
+503,iln2320,Total number of installment trades ever 30 or more days delinquent or derogatory,Trades,0-90,numeric,0,90
+504,iln2326,Total number of installment trades ever 30 or more days delinquent or derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+505,iln2328,Total number of installment trades ever 30 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+506,iln2350,Total number of installment trades ever 60 or more days delinquent or derogatory ,Trades,0-90,numeric,0,90
+507,iln2356,Total number of installment trades ever 60 or more days delinquent or derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+508,iln2380,Total number of installment trades ever 90 or more days delinquent or derogatory,Trades,0-90,numeric,0,90
+509,iln2387,Total number of installment trades ever 90 or more days delinquent or derogatory occurred in the last 12 months,Trades,0-90,numeric,0,90
+510,iln3110,Total number of installment trades with a balance > $0 including indeterminates,Trades,0-90,numeric,0,90
+511,iln4070,Total number of occurrences of 30 days delinquency in the last 12 months on installment trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+512,iln4080,Total number of occurrences of 30 days delinquency in the last 24 months on installment trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+513,iln4370,Total number of occurrences of 60 days delinquency in the last 12 months on installment trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+514,iln4770,Total number of occurrences of 90-180 days delinquency in the last 12 months on installment trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+515,iln5020,Total balance on open installment trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+516,iln5040,Total balance on installment trades presently 30 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+517,iln5043,Total balance on installment trades presently 60 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+518,iln5047,Total balance on installment trades presently 90-180 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+519,iln5070,Total balance on installment trades presently derogatory occurred in the last 6 months,$,0-999999990,numeric,0,999999990
+520,iln5120,Maximum balance on open installment trades reported in the last 6 months,$,0-999999990,numeric,0,999999990
+521,iln5220,Maximum actual payment on open installment trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+522,iln5320,Total credit amount on open installment trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+523,iln5400,Maximum credit amount on installment trades including indeterminates,$,0-999999990,numeric,0,999999990
+524,iln5740,Total amount past due on installment trades presently 30 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+525,iln5820,Total monthly payment on open installment trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+526,iln5823,Total monthly payment on open installment trades that will mature in 6 months and reported in the last 6 months,$,0-999999990,numeric,0,999999990
+527,iln5838,"Total scheduled payment on open, or closed with a balance > $0 installment trades with actual payment > $0, excluding derogatory trades, reported in the last 6 months",$,0-999999990,numeric,0,999999990
+528,iln5923,Total actual payment on open installment trades expected to pay off in 6 months and reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+529,iln5930,"Total actual payment on open, or closed with a balance > $0 installment trades, excluding derogatory trades, reported in the last 6 months ",$,0-999999990,numeric,0,999999990
+530,iln6160,Worst present status on an installment trade reported in the last 6 months including indeterminates,Rank,0-400,numeric,0,400
+531,iln6200,Worst ever status on an installment trade including indeterminates,Rank,0-400,numeric,0,400
+532,iln6210,Worst ever status on an installment trade opened in the last 12 months including indeterminates,Rank,0-400,numeric,0,400
+533,iln6220,Worst ever status on an installment trade opened in the last 24 months including indeterminates,Rank,0-400,numeric,0,400
+534,iln6230,Worst ever status on an installment trade opened in the last 36 months including indeterminates,Rank,0-400,numeric,0,400
+535,iln6270,Worst ever status on an installment trade in the last 12 months including indeterminates,Rank,0-400,numeric,0,400
+536,iln7110,Overall balance to credit amount ratio on open installment trades reported in the last 6 months with credit amount > $0,%,0-990,numeric,0,990
+537,iln7120,Maximum single balance to credit amount ratio on an open installment trade reported in the last 6 months with credit amount > $0,%,0-990,numeric,0,990
+538,iln7130,Balance to credit amount ratio on an open installment trade with the highest balance and credit amount > $0 reported in the last 6 months,%,0-990,numeric,0,990
+539,iln7150,"Overall scheduled payment to actual payment ratio on open installment trades with actual payment > $0, reported in the last 6 months ",%,0-990,numeric,0,990
+540,iln7300,Percentage of trades excluding collections that are installment trades,%,0-100,numeric,0,100
+541,iln7310,Percentage of all trades excluding collections that are open installment trades reported in the last 6 months,%,0-100,numeric,0,100
+542,iln7430,Percentage of installment trades that are never delinquent or derogatory,%,0-100,numeric,0,100
+543,iln7432,Percentage of installment trades reported in the last 6 months that are never delinquent or derogatory occurred in the last 6 months ,%,0-100,numeric,0,100
+544,iln7434,Percentage of installment trades reported in the last 24 months that are never delinquent or derogatory occurred in the last 24 months ,%,0-100,numeric,0,100
+545,iln7436,Percentage of installment trades that are never delinquent or derogatory occurred in the last 6 months ,%,0-100,numeric,0,100
+546,iln7437,Percentage of installment trades that are never delinquent or derogatory occurred in the last 12 months ,%,0-100,numeric,0,100
+547,iln7438,Percentage of installment trades that are never delinquent or derogatory occurred in the last 24 months ,%,0-100,numeric,0,100
+548,iln7440,Percentage of installment trades that are ever 30 or more days delinquent or derogatory,%,0-100,numeric,0,100
+549,iln7460,Percentage of installment trades that are ever 90 or more days delinquent or derogatory,%,0-100,numeric,0,100
+550,iln7470,Percentage of installment trades that are ever derogatory,%,0-100,numeric,0,100
+551,iln8140,Minimum number of months remaining to maturity on open installment trades reported in the last 6 months,Months,0-9990,numeric,0,9990
+552,iln8150,"Number of months since the most recent 30 days delinquency on installment trades, excluding unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+553,iln8151,"Number of months since the most recent 30-180 days delinquency on installment trades, excluding unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+554,iln8152,Number of months since the most recent 30 or more days delinquency or derogatory on installment trades including indeterminates,Months,0-9990,numeric,0,9990
+555,iln8153,"Number of months since the most recent 60 days delinquency on installment trades, excluding unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+556,iln8160,Number of months since the most recent derogatory on installment trades including indeterminates,Months,0-9990,numeric,0,9990
+557,iln8220,Number of months since the oldest installment trade was opened including indeterminates,Months,0-9990,numeric,0,9990
+558,iln8320,Average number of months since installment trades were opened including indeterminates,Months,0-9990,numeric,0,9990
+559,iqa9415,Total number of auto loan or lease inquiries made in the last 3 months,Inquiries,0-90,numeric,0,90
+560,iqa9416,Total number of auto loan or lease inquiries made in the last 6 months ,Inquiries,0-90,numeric,0,90
+561,iqa9427,Total number of auto loan or lease inquiries made in the last 12 months (no deduplication),Inquiries,0-90,numeric,0,90
+562,iqa9540,Number of days since the most recent auto loan or lease inquiry (no deduplication),Days,0-9990,numeric,0,9990
+563,iqb9415,Total number of bankcard revolving and charge inquiries made in the last 3 months,Inquiries,0-90,numeric,0,90
+564,iqb9416,Total number of bankcard revolving and charge inquiries made in the last 6 months ,Inquiries,0-90,numeric,0,90
+565,iqb9510,Number of months since the most recent bankcard revolving and charge inquiry (no deduplication),Months,0-9990,numeric,0,9990
+566,iqb9540,Number of days since the most recent bankcard revolving and charge inquiry (no deduplication),Days,0-9990,numeric,0,9990
+567,iqc9410,Total number of collection inquiries (no deduplication),Inquiries,0-90,numeric,0,90
+568,iqc9417,Total number of collection inquiries made in the last 12 months (no deduplication),Inquiries,0-90,numeric,0,90
+569,iqf9410,Total number of personal finance inquiries,Inquiries,0-90,numeric,0,90
+570,iqf9415,Total number of personal finance inquiries made in the last 3 months,Inquiries,0-90,numeric,0,90
+571,iqf9417,Total number of personal finance inquiries made in the last 12 months ,Inquiries,0-90,numeric,0,90
+572,iqf9540,Number of days since the most recent personal finance inquiry (no deduplication),Days,0-9990,numeric,0,9990
+573,iqm9416,Total number of mortgage type inquiries made in the last 6 months ,Inquiries,0-90,numeric,0,90
+574,iqm9417,Total number of mortgage type inquiries made in the last 12 months ,Inquiries,0-90,numeric,0,90
+575,iqp9510,Number of months since the most recent real estate and property management inquiry (no deduplication),Months,0-9990,numeric,0,9990
+576,iqp9540,Number of days since the most recent real estate and property management inquiry (no deduplication),Days,0-9990,numeric,0,9990
+577,iqr9410,Total number of retail inquiries,Inquiries,0-90,numeric,0,90
+578,iqr9415,Total number of retail inquiries made in the last 3 months,Inquiries,0-90,numeric,0,90
+579,iqr9510,Number of months since the most recent retail inquiry (no deduplication),Months,0-9990,numeric,0,9990
+580,iqt9410,Total number of inquiries,Inquiries,0-90,numeric,0,90
+581,iqt9412,Total number of inquiries made in the last 14 days,Inquiries,0-90,numeric,0,90
+582,iqt9413,Total number of inquiries made in the last 30 days,Inquiries,0-90,numeric,0,90
+583,iqt9415,Total number of inquiries made in the last 3 months,Inquiries,0-90,numeric,0,90
+584,iqt9416,Total number of inquiries made in the last 6 months ,Inquiries,0-90,numeric,0,90
+585,iqt9417,Total number of inquiries made in the last 12 months ,Inquiries,0-90,numeric,0,90
+586,iqt9420,Total number of inquiries (no deduplication),Inquiries,0-90,numeric,0,90
+587,iqt9423,Total number of inquiries made in the last 30 days (no deduplication),Inquiries,0-90,numeric,0,90
+588,iqt9425,Total number of inquiries made in the last 3 months (no deduplication),Inquiries,0-90,numeric,0,90
+589,iqt9427,Total number of inquiries made in the last 12 months (no deduplication),Inquiries,0-90,numeric,0,90
+590,iqt9510,Number of months since the most recent inquiry (no deduplication),Months,0-9990,numeric,0,9990
+591,iqt9526,Range of days between the first and last inquiry made in the last 6 months (no deduplication),Days,0-990,numeric,0,990
+592,iqt9536,Average number of days between inquiries made in the last 6 months (no deduplication),Days,0-990,numeric,0,990
+593,iqt9846,Ratio of inquiries (no deduplication) in the last 6 months to trades opened in the last 6 months excluding collections,%,0-990,numeric,0,990
+594,mta0300,Total number of mortgage type trades,Trades,0-90,numeric,0,90
+595,mta0316,Total number of mortgage type trades reported in the last 6 months,Trades,0-90,numeric,0,90
+596,mta0317,Total number of mortgage type trades reported in the last 12 months,Trades,0-90,numeric,0,90
+597,mta0318,Total number of mortgage type trades reported in the last 24 months,Trades,0-90,numeric,0,90
+598,mta0400,Total number of open mortgage type trades ,Trades,0-90,numeric,0,90
+599,mta0416,Total number of open mortgage type trades reported in the last 6 months ,Trades,0-90,numeric,0,90
+600,mta0436,Total number of open mortgage type trades opened in the last 6 months ,Trades,0-90,numeric,0,90
+601,mta0437,Total number of open mortgage type trades opened in the last 12 months ,Trades,0-90,numeric,0,90
+602,mta0438,Total number of open mortgage type trades opened in the last 24 months ,Trades,0-90,numeric,0,90
+603,mta0702,"Total number of closed mortgage type trades, with no open mortgage types trades present and all mortgage type trades never delinquent or derogatory",Trades,0-90,numeric,0,90
+604,mta1300,Total number of mortgage type trades never delinquent or derogatory,Trades,0-90,numeric,0,90
+605,mta1304,Total number of mortgage type trades under a loan modification plan never delinquent or derogatory,Trades,0-90,numeric,0,90
+606,mta1370,Total number of mortgage type trades never delinquent or derogatory occurred in the last 12 months,Trades,0-90,numeric,0,90
+607,mta2000,Total number of open mortgage type trades presently satisfactory reported in the last 6 months ,Trades,0-90,numeric,0,90
+608,mta2106,Total number of mortgage type trades presently 30 days delinquent reported in the last 6 months ,Trades,0-90,numeric,0,90
+609,mta2136,Total number of mortgage type trades presently 60 days delinquent reported in the last 6 months ,Trades,0-90,numeric,0,90
+610,mta2326,Total number of mortgage type trades ever 30 or more days delinquent or derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+611,mta2327,Total number of mortgage type trades ever 30 or more days delinquent or derogatory occurred in the last 12 months,Trades,0-90,numeric,0,90
+612,mta2357,Total number of mortgage type trades ever 60 or more days delinquent or derogatory occurred in the last 12 months,Trades,0-90,numeric,0,90
+613,mta2358,Total number of mortgage type trades ever 60 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+614,mta2380,Total number of mortgage type trades ever 90 or more days delinquent or derogatory,Trades,0-90,numeric,0,90
+615,mta2386,Total number of mortgage type trades ever 90 or more days delinquent or derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+616,mta2387,Total number of mortgage type trades ever 90 or more days delinquent or derogatory occurred in the last 12 months,Trades,0-90,numeric,0,90
+617,mta4070,Total number of occurrences of 30 days delinquency in the last 12 months on mortgage type trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+618,mta4080,Total number of occurrences of 30 days delinquency in the last 24 months on mortgage type trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+619,mta4370,Total number of occurrences of 60 days delinquency in the last 12 months on mortgage type trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+620,mta4780,Total number of occurrences of 90-180 days delinquency in the last 24 months on mortgage type trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+621,mta5020,Total balance on open mortgage type trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+622,mta5030,"Total balance on open, or closed with a balance > $0 mortgage type trades, reported in the last 6 months excluding derogatory trades",$,0-999999990,numeric,0,999999990
+623,mta5040,Total balance on mortgage type trades presently 30 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+624,mta5043,Total balance on mortgage type trades presently 60 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+625,mta5047,Total balance on mortgage type trades presently 90-180 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+626,mta5070,Total balance on mortgage type trades presently derogatory occurred in the last 6 months,$,0-999999990,numeric,0,999999990
+627,mta5121,Balance on the most recently opened open mortgage type trade,$,0-999999990,numeric,0,999999990
+628,mta5320,Total credit amount on open mortgage type trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+629,mta5422,Credit amount on the oldest open mortgage type trade with credit amount > $0,$,0-999999990,numeric,0,999999990
+630,mta5740,Total amount past due on mortgage type trades presently 30 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+631,mta5743,Total amount past due on mortgage type trades presently 60 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+632,mta6160,Worst present status on a mortgage type trade reported in the last 6 months including indeterminates,Rank,0-400,numeric,0,400
+633,mta6220,Worst ever status on a mortgage type trade opened in the last 24 months including indeterminates,Rank,0-400,numeric,0,400
+634,mta6230,Worst ever status on a mortgage type trade opened in the last 36 months including indeterminates,Rank,0-400,numeric,0,400
+635,mta6270,Worst ever status on a mortgage type trade in the last 12 months including indeterminates,Rank,0-400,numeric,0,400
+636,mta6280,Worst ever status on a mortgage type trade in the last 24 months including indeterminates,Rank,0-400,numeric,0,400
+637,mta7410,Percentage of mortgage type trades that are open and reported in the last 6 months,%,0-100,numeric,0,100
+638,mta7430,Percentage of mortgage type trades that are never delinquent or derogatory,%,0-100,numeric,0,100
+639,mta7433,Percentage of mortgage type trades reported in the last 12 months that are never delinquent or derogatory occurred in the last 12 months ,%,0-100,numeric,0,100
+640,mta7434,Percentage of mortgage type trades reported in the last 24 months that are never delinquent or derogatory occurred in the last 24 months ,%,0-100,numeric,0,100
+641,mta7440,Percentage of mortgage type trades that are ever 30 or more days delinquent or derogatory,%,0-100,numeric,0,100
+642,mta7460,Percentage of mortgage type trades that are ever 90 or more days delinquent or derogatory,%,0-100,numeric,0,100
+643,mta8120,Number of months since the most recently opened mortgage type trade including indeterminates,Months,0-9990,numeric,0,9990
+644,mta8150,"Number of months since the most recent 30 days delinquency on mortgage type trades, excluding unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+645,mta8153,"Number of months since the most recent 60 days delinquency on mortgage type trades, excluding unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+646,pil1300,Total number of personal installment trades never delinquent or derogatory,Trades,0-90,numeric,0,90
+647,pil2328,Total number of personal installment trades ever 30 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+648,pil2358,Total number of personal installment trades ever 60 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+649,pil2388,Total number of personal installment trades ever 90 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+650,pil2800,Total number of personal installment trades ever derogatory,Trades,0-90,numeric,0,90
+651,pil5020,Total balance on open personal installment trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+652,pil5320,Total credit amount on open personal installment trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+653,pil6200,Worst ever status on a personal installment trade including indeterminates,Rank,0-400,numeric,0,400
+654,pil8120,Number of months since the most recently opened personal installment trade including indeterminates,Months,0-9990,numeric,0,9990
+655,rec5020,Total balance on open recreational merchandise trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+656,rec5120,Maximum balance on open recreational merchandise trades reported in the last 6 months,$,0-999999990,numeric,0,999999990
+657,reh0300,Total number of revolving trades excluding home equity line of credit trades,Trades,0-90,numeric,0,90
+658,reh0416,Total number of open revolving trades reported in the last 6 months excluding home equity line of credit trades,Trades,0-90,numeric,0,90
+659,reh0437,Total number of open revolving trades opened in the last 12 months excluding home equity line of credit trades ,Trades,0-90,numeric,0,90
+660,reh2000,Total number of open revolving trades presently satisfactory reported in the last 6 months excluding home equity line of credit trades,Trades,0-90,numeric,0,90
+661,reh2688,Total number of revolving trades ever 90 or more days delinquent or derogatory opened in the last 24 months excluding home equity line of credit trades,Trades,0-90,numeric,0,90
+662,reh3410,Total number of open revolving trades with a balance > $0 excluding home equity line of credit trades,Trades,0-90,numeric,0,90
+663,reh3423,Total number of open revolving trades with a balance to credit amount ratio >= 100 reported in the last 6 months excluding home equity line of credit trades,Trades,0-90,numeric,0,90
+664,reh3510,Total number of revolving trades with a balance > $0 reported in the last 6 months excluding derogatory trades and home equity line of credit,Trades,0-90,numeric,0,90
+665,reh5020,Total balance on open revolving trades reported in the last 6 months excluding home equity line of credit trades ,$,0-999999990,numeric,0,999999990
+666,reh5030,"Total balance on open, or closed with a balance > $0 revolving trades, reported in the last 6 months, excluding derogatory and home equity line of credit trades",$,0-999999990,numeric,0,999999990
+667,reh5120,Maximum balance on open revolving trades reported in the last 6 months excluding home equity line of credit trades ,$,0-999999990,numeric,0,999999990
+668,reh5320,Total credit amount on open revolving trades reported in the last 6 months excluding home equity line of credit trades,$,0-999999990,numeric,0,999999990
+669,reh5420,Maximum credit amount on open revolving trades reported in the last 6 months excluding home equity line of credit trades,$,0-999999990,numeric,0,999999990
+670,reh5820,Total monthly payment on open revolving trades reported in the last 6 months excluding home equity line of credit trades,$,0-999999990,numeric,0,999999990
+671,reh5830,"Total monthly payment on open, or closed with a balance > $0 revolving trades, reported in the last 6 months excluding home equity line of credit trades",$,0-999999990,numeric,0,999999990
+672,reh7110,"Overall balance to credit amount ratio on open revolving trades reported in the last 6 months with credit amount > $0, excluding home equity line of credit trades",%,0-990,numeric,0,990
+673,reh7120,"Maximum single balance to credit amount ratio on an open revolving trade reported in the last 6 months with credit amount > $0, excluding home equity line of credit trades",%,0-990,numeric,0,990
+674,reh8220,Number of months since the oldest revolving trade was opened excluding home equity line of credit trades including indeterminates,Months,0-9990,numeric,0,9990
+675,reh8227,Number of months since the oldest open and presently satisfactory revolving trade was opened excluding home equity line of credit trades,Months,0-9990,numeric,0,9990
+676,rev0300,Total number of revolving trades,Trades,0-90,numeric,0,90
+677,rev0318,Total number of revolving trades reported in the last 24 months,Trades,0-90,numeric,0,90
+678,rev0438,Total number of open revolving trades opened in the last 24 months ,Trades,0-90,numeric,0,90
+679,rev1300,Total number of revolving trades never delinquent or derogatory,Trades,0-90,numeric,0,90
+680,rev1360,Total number of revolving trades never delinquent or derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+681,rev1370,Total number of revolving trades never delinquent or derogatory occurred in the last 12 months,Trades,0-90,numeric,0,90
+682,rev1380,Total number of revolving trades never delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+683,rev1401,Total number of open revolving trades with a balance > $0 never delinquent or derogatory,Trades,0-90,numeric,0,90
+684,rev2126,Total number of revolving trades presently 30 or more days delinquent or derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+685,rev2176,Total number of revolving trades presently 90-180 days delinquent reported in the last 6 months ,Trades,0-90,numeric,0,90
+686,rev2206,Total number of revolving trades presently derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+687,rev2320,Total number of revolving trades ever 30 or more days delinquent or derogatory,Trades,0-90,numeric,0,90
+688,rev2326,Total number of revolving trades ever 30 or more days delinquent or derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+689,rev2328,Total number of revolving trades ever 30 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+690,rev2350,Total number of revolving trades ever 60 or more days delinquent or derogatory ,Trades,0-90,numeric,0,90
+691,rev2357,Total number of revolving trades ever 60 or more days delinquent or derogatory occurred in the last 12 months,Trades,0-90,numeric,0,90
+692,rev2358,Total number of revolving trades ever 60 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+693,rev2380,Total number of revolving trades ever 90 or more days delinquent or derogatory,Trades,0-90,numeric,0,90
+694,rev2386,Total number of revolving trades ever 90 or more days delinquent or derogatory occurred in the last 6 months,Trades,0-90,numeric,0,90
+695,rev2387,Total number of revolving trades ever 90 or more days delinquent or derogatory occurred in the last 12 months,Trades,0-90,numeric,0,90
+696,rev2388,Total number of revolving trades ever 90 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+697,rev2800,Total number of revolving trades ever derogatory,Trades,0-90,numeric,0,90
+698,rev2840,Total number of charge-off revolving trades,Trades,0-90,numeric,0,90
+699,rev3421,Total number of open revolving trades with a balance to credit amount ratio >= 50 reported in the last 6 months ,Trades,0-90,numeric,0,90
+700,rev3517,Total number of revolving trades with a balance > $0 and amount past due > $0 reported in the last 6 months excluding derogatory trades,Trades,0-90,numeric,0,90
+701,rev4070,Total number of occurrences of 30 days delinquency in the last 12 months on revolving trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+702,rev4080,Total number of occurrences of 30 days delinquency in the last 24 months on revolving trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+703,rev4770,Total number of occurrences of 90-180 days delinquency in the last 12 months on revolving trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+704,rev5002,Total balance on revolving trades with credit limit > $0 excluding collections,$,0-999999990,numeric,0,999999990
+705,rev5020,Total balance on open revolving trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+706,rev5030,"Total balance on open, or closed with a balance > $0 revolving trades, reported in the last 6 months excluding derogatory trades",$,0-999999990,numeric,0,999999990
+707,rev5032,"Total balance on open, or closed with a balance > $0 revolving trades with credit limit > $0, excluding derogatory trades",$,0-999999990,numeric,0,999999990
+708,rev5036,"Total balance on open, or closed with a balance > $0 revolving trades opened in the last 6 month, excluding derogatory trades",$,0-999999990,numeric,0,999999990
+709,rev5040,Total balance on revolving trades presently 30 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+710,rev5043,Total balance on revolving trades presently 60 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+711,rev5047,Total balance on revolving trades presently 90-180 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+712,rev5070,Total balance on revolving trades presently derogatory occurred in the last 6 months,$,0-999999990,numeric,0,999999990
+713,rev5740,Total amount past due on revolving trades presently 30 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+714,rev5743,Total amount past due on revolving trades presently 60 days delinquent reported in the last 6 months,$,0-999999990,numeric,0,999999990
+715,rev5830,"Total monthly payment on open, or closed with a balance > $0 revolving trades, reported in the last 6 months excluding derogatory trades",$,0-999999990,numeric,0,999999990
+716,rev6200,Worst ever status on a revolving trade including indeterminates,Rank,0-400,numeric,0,400
+717,rev6220,Worst ever status on a revolving trade opened in the last 24 months including indeterminates,Rank,0-400,numeric,0,400
+718,rev6270,Worst ever status on a revolving trade in the last 12 months including indeterminates,Rank,0-400,numeric,0,400
+719,rev7114,"Ratio of total balance on open, or closed with a balance > $0 revolving trades excluding derogatory to total credit limit on open revolving trades, with credit limit > $",%,0-990,numeric,0,990
+720,rev7140,Overall balance to credit limit ratio on open revolving trades reported in the last 6 months with credit limit > $0,%,0-990,numeric,0,990
+721,rev7410,Percentage of revolving trades that are open and reported in the last 6 months,%,0-100,numeric,0,100
+722,rev7420,Percentage of revolving trades that have a balance > $0 reported in the last 6 months excluding derogatory,%,0-100,numeric,0,100
+723,rev7433,Percentage of revolving trades reported in the last 12 months that are never delinquent or derogatory occurred in the last 12 months ,%,0-100,numeric,0,100
+724,rev7434,Percentage of revolving trades reported in the last 24 months that are never delinquent or derogatory occurred in the last 24 months ,%,0-100,numeric,0,100
+725,rev7436,Percentage of revolving trades that are never delinquent or derogatory occurred in the last 6 months ,%,0-100,numeric,0,100
+726,rev7437,Percentage of revolving trades that are never delinquent or derogatory occurred in the last 12 months ,%,0-100,numeric,0,100
+727,rev7438,Percentage of revolving trades that are never delinquent or derogatory occurred in the last 24 months ,%,0-100,numeric,0,100
+728,rev7443,Percentage of revolving trades reported in the last 12 months that are 30 or more days delinquent or derogatory occurred in the last 12 months,%,0-100,numeric,0,100
+729,rev7446,Percentage of revolving trades that are 30 or more days delinquent or derogatory occurred in the last 6 months ,%,0-100,numeric,0,100
+730,rev7460,Percentage of revolving trades that are ever 90 or more days delinquent or derogatory,%,0-100,numeric,0,100
+731,rev7470,Percentage of revolving trades that are ever derogatory ,%,0-100,numeric,0,100
+732,rev7801,"Ratio of total available credit amount on open revolving trades to total monthly payments on open installment, first and second mortgage trades, reported in the last 6 months",Months,0-999999990,numeric,0,999999990
+733,rev8120,Number of months since the most recently opened revolving trade including indeterminates,Months,0-9990,numeric,0,9990
+734,rev8151,"Number of months since the most recent 30-180 days delinquency on revolving trades, excluding unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+735,rev8153,"Number of months since the most recent 60 days delinquency on revolving trades, excluding unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+736,rev8157,"Number of months since the most recent 90-180 days delinquency on revolving trades, excluding unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+737,rev8220,Number of months since the oldest revolving trade was opened including indeterminates,Months,0-9990,numeric,0,9990
+738,rev8320,Average number of months since revolving trades were opened including indeterminates,Months,0-9990,numeric,0,9990
+739,rta0416,Total number of open retail trades reported in the last 6 months ,Trades,0-90,numeric,0,90
+740,rta0436,Total number of open retail trades opened in the last 6 months ,Trades,0-90,numeric,0,90
+741,rta2306,Total number of retail trades 30 days delinquent in the last 6 months excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+742,rta2307,Total number of retail trades 30 days delinquent in the last 12 months excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+743,rta2308,Total number of retail trades 30 days delinquent in the last 24 months excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+744,rta2336,Total number of retail trades 60 days delinquent in the last 6 months excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+745,rta2367,Total number of retail trades 90 days delinquent in the last 12 months excluding unsatisfied derogatory,Trades,0-90,numeric,0,90
+746,rta3110,Total number of retail trades with a balance > $0 including indeterminates,Trades,0-90,numeric,0,90
+747,rta5030,"Total balance on open, or closed with a balance > $0 retail trades, reported in the last 6 months excluding derogatory trades",$,0-999999990,numeric,0,999999990
+748,rta5320,Total credit amount on open retail trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+749,rta5830,"Total monthly payment on open, or closed with a balance > $0 retail trades, reported in the last 6 months excluding derogatory trades",$,0-999999990,numeric,0,999999990
+750,rta6280,Worst ever status on a retail trade in the last 24 months including indeterminates,Rank,0-400,numeric,0,400
+751,rta7110,Overall balance to credit amount ratio on open retail trades reported in the last 6 months with credit amount > $0,%,0-990,numeric,0,990
+752,rta7300,Percentage of trades excluding collections that are retail trades,%,0-100,numeric,0,100
+753,rta8122,Number of months since the most recently opened open retail trade,Months,0-9990,numeric,0,9990
+754,rta8151,"Number of months since the most recent 30-180 days delinquency on retail trades, excluding unsatisfied derogatory including indeterminates",Months,0-9990,numeric,0,9990
+755,rti0300,Total number of installment retail trades,Trades,0-90,numeric,0,90
+756,rti4180,Total number of occurrences of 30-180 days delinquency in the last 24 months on installment retail trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+757,rti5020,Total balance on open installment retail trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+758,rti5820,Total monthly payment on open installment retail trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+759,rtr0300,Total number of revolving retail trades,Trades,0-90,numeric,0,90
+760,rtr0416,Total number of open revolving retail trades reported in the last 6 months ,Trades,0-90,numeric,0,90
+761,rtr0437,Total number of open revolving retail trades opened in the last 12 months ,Trades,0-90,numeric,0,90
+762,rtr0438,Total number of open revolving retail trades opened in the last 24 months ,Trades,0-90,numeric,0,90
+763,rtr1300,Total number of revolving retail trades never delinquent or derogatory,Trades,0-90,numeric,0,90
+764,rtr1380,Total number of revolving retail trades never delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+765,rtr2320,Total number of revolving retail trades ever 30 or more days delinquent or derogatory,Trades,0-90,numeric,0,90
+766,rtr2328,Total number of revolving retail trades ever 30 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+767,rtr2358,Total number of revolving retail trades ever 60 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+768,rtr2380,Total number of revolving retail trades ever 90 or more days delinquent or derogatory,Trades,0-90,numeric,0,90
+769,rtr2388,Total number of revolving retail trades ever 90 or more days delinquent or derogatory occurred in the last 24 months,Trades,0-90,numeric,0,90
+770,rtr3347,"Total number of retail revolving trades that opened 6-24 months ago and had only a balance activity within the first 2 months after the opening, excluding unsatisfied derogatory",Trades,0-90,numeric,0,90
+771,rtr3348,"Total number of retail revolving trades that opened more than 6 months ago and had only balance activity within the first 2 months after the opening, including indeterminates and excluding unsatisfied derogatory",Trades,0-90,numeric,0,90
+772,rtr3422,Total number of open revolving retail trades with a balance to credit amount ratio >= 75 reported in the last 6 months ,Trades,0-90,numeric,0,90
+773,rtr3510,Total number of revolving retail trades with a balance > $0 reported in the last 6 months excluding derogatory trades,Trades,0-90,numeric,0,90
+774,rtr5020,Total balance on open revolving retail trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+775,rtr5030,"Total balance on open, or closed with a balance > $0 revolving retail trades, reported in the last 6 months excluding derogatory trades",$,0-999999990,numeric,0,999999990
+776,rtr5038,"Total balance on open, or closed with a balance > $0 revolving retail trades with actual payment > $0, excluding derogatory trades, reported in the last 6 months",$,0-999999990,numeric,0,999999990
+777,rtr5227,Actual payment on an open revolving retail trade with the highest balance and actual payment > $0,$,0-999999990,numeric,0,999999990
+778,rtr5228,"Actual payment on an open revolving retail trade with the highest credit amount, actual payment > $0 and credit amount > $0",$,0-999999990,numeric,0,999999990
+779,rtr5320,Total credit amount on open revolving retail trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+780,rtr5620,Total available credit amount on open revolving retail trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+781,rtr5627,Total available credit limit on open revolving retail trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+782,rtr5920,Total actual payment on open revolving retail trades,$,0-999999990,numeric,0,999999990
+783,rtr5930,"Total actual payment on open, or closed with a balance > $0 revolving retail trades, excluding derogatory trades, reported in the last 6 months ",$,0-999999990,numeric,0,999999990
+784,rtr7110,Overall balance to credit amount ratio on open revolving retail trades reported in the last 6 months with credit amount > $0,%,0-990,numeric,0,990
+785,rtr7140,Overall balance to credit limit ratio on open revolving retail trades reported in the last 6 months with credit limit > $0,%,0-990,numeric,0,990
+786,rtr7160,"Overall actual payment to balance ratio on open, or closed with a balance > $0 revolving retail trades with actual payment > $0, excluding derogatory trades, reported in the last 6 months",%,0-990,numeric,0,990
+787,rtr7216,Percentage of balance on open revolving trades reported in the last 6 months that are revolving retail trades (requires 2 or more qualified trades),%,0-990,numeric,0,990
+788,rtr7620,"Percentage of total actual payment on open revolving retail trades that have the highest credit amount,  actual payment > $0 and credit amount > $0",%,0-100,numeric,0,100
+789,rtr8120,Number of months since the most recently opened revolving retail trade including indeterminates,Months,0-9990,numeric,0,9990
+790,rtr8220,Number of months since the oldest revolving retail trade was opened including indeterminates,Months,0-9990,numeric,0,9990
+791,rtr8320,Average number of months since revolving retail trades were opened including indeterminates,Months,0-9990,numeric,0,9990
+792,stu0436,Total number of open non-deferred student trades opened in the last 6 months ,Trades,0-90,numeric,0,90
+793,stu0437,Total number of open non-deferred student trades opened in the last 12 months ,Trades,0-90,numeric,0,90
+794,stu0701,Total number of closed deferred student trades ,Trades,0-90,numeric,0,90
+795,stu0802,Total number of deferred student trades ,Trades,0-90,numeric,0,90
+796,stu0806,Total number of deferred student trades opened in the last 6 months ,Trades,0-90,numeric,0,90
+797,stu0807,Total number of deferred student trades opened in the last 12 months ,Trades,0-90,numeric,0,90
+798,stu0837,Total number of open deferred student trades opened in the last 12 months ,Trades,0-90,numeric,0,90
+799,stu1100,Total number of student trades never delinquent or derogatory including indeterminates (deferred included),Trades,0-90,numeric,0,90
+800,stu1300,Total number of non-deferred student trades never delinquent or derogatory,Trades,0-90,numeric,0,90
+801,stu2000,Total number of open non-deferred student trades presently satisfactory reported in the last 6 months ,Trades,0-90,numeric,0,90
+802,stu2007,Total number of open deferred student trades presently satisfactory reported in the last 6 months ,Trades,0-90,numeric,0,90
+803,stu2558,Total number of student trades ever 60 or more days delinquent or derogatory occurred in the last 24 months including indeterminates (deferred included),Trades,0-90,numeric,0,90
+804,stu2580,Total number of student trades ever 90 or more days delinquent or derogatory including indeterminates (deferred included),Trades,0-90,numeric,0,90
+805,stu4180,Total number of occurrences of 30-180 days delinquency in the last 24 months on non-deferred student trades excluding unsatisfied derogatory,Occurrences,0-990,numeric,0,990
+806,stu5020,Total balance on open non-deferred student trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+807,stu5031,"Total balance on open, or closed a balance > $0 student trades, reported in the last 6 months excluding derogatory trades including indeterminates (deferred included)",$,0-999999990,numeric,0,999999990
+808,stu5092,Total balance on open deferred student trades ,$,0-999999990,numeric,0,999999990
+809,stu5123,Balance on an open deferred student trade with nearest future payment start date ,$,0-999999990,numeric,0,999999990
+810,stu5127,Maximum balance on open deferred student trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+811,stu5327,Total credit amount on open deferred student trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+812,stu5420,Maximum credit amount on open non-deferred student trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+813,stu5820,Total monthly payment on open non-deferred student trades reported in the last 6 months ,$,0-999999990,numeric,0,999999990
+814,stu6280,Worst ever status on a student trade in the last 24 months including indeterminates (deferred included),Rank,0-400,numeric,0,400
+815,stu7110,Overall balance to credit amount ratio on open non-deferred student trades reported in the last 6 months with credit amount > $0,%,0-990,numeric,0,990
+816,stu8120,Number of months since the most recently opened student trade including indeterminates (deferred included),Months,0-9990,numeric,0,9990
+817,stu8122,Number of months since the most recently opened open student trade including deferred,Months,0-9990,numeric,0,9990
+818,stu8142,Number of months to the nearest future payment start date on an open deferred student trade,Months,0-9990,numeric,0,9990
+819,stu8151,"Number of months since the most recent 30-180 days delinquency on student trades, excluding unsatisfied derogatory including indeterminates (deferred included)",Months,0-9990,numeric,0,9990
+820,stu8228,Number of months since the oldest non-deferred student trade was opened including indeterminates,Months,0-9990,numeric,0,9990
+821,use0300,Total number of authorized user trades,Trades,0-90,numeric,0,90
+822,use0416,Total number of open authorized user trades reported in the last 6 months,Trades,0-90,numeric,0,90
