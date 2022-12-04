@@ -3,14 +3,14 @@
 import pickle as pkl
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
-
+import sys
 
 
 def main(targets):
     '''
     Runs the main project pipeline logic, given the targets.
     targets must contain: 'data', 'analysis', 'model'. 
-    
+
     `main` runs the targets in order of data=>analysis=>model.
     '''
     predictions_fp = 'predictions.csv'
@@ -26,13 +26,13 @@ def main(targets):
 
         scaler = StandardScaler()
         scaler.fit(X_test)
-        scaled_data = pd.DataFrame(scaler.transform(X_test), columns = X_test.columns)
+        scaled_data = pd.DataFrame(
+            scaler.transform(X_test), columns=X_test.columns)
         X_test = scaled_data
 
         pklmodel = pkl.load(open('src/data/model.pkl', 'rb'))
 
         predictions = pd.Series(pklmodel.predict(X_test))
-
 
         predictions.to_csv(predictions_fp, index_label=False)
 
